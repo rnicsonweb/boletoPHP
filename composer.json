@@ -1,0 +1,5 @@
+{
+    "require": {
+        "andersondanilo/cnab_php": "^1.3"
+    }
+}

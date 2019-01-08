@@ -1,0 +1,154 @@
+[17-Aug-2018 18:42:40 UTC] PHP Warning:  require_once(/home/unidas/public_html/boleto_filiada/gerar/2/html2pdf/html2pdf.class.php): failed to open stream: No such file or directory in /home/unidas/public_html/boleto_filiada/gerar/2/boleto_sicredi.php on line 107
+[17-Aug-2018 18:42:40 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/unidas/public_html/boleto_filiada/gerar/2/html2pdf/html2pdf.class.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/unidas/public_html/boleto_filiada/gerar/2/boleto_sicredi.php on line 107
+[17-Aug-2018 18:43:09 UTC] PHP Warning:  require_once(/home/unidas/public_html/boleto_filiada/gerar/2/html2pdf/html2pdf.class.php): failed to open stream: No such file or directory in /home/unidas/public_html/boleto_filiada/gerar/2/boleto_sicredi.php on line 107
+[17-Aug-2018 18:43:09 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/unidas/public_html/boleto_filiada/gerar/2/html2pdf/html2pdf.class.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/unidas/public_html/boleto_filiada/gerar/2/boleto_sicredi.php on line 107
+[17-Aug-2018 18:48:04 UTC] PHP Warning:  include_once(include/funcoes_itau.php): failed to open stream: No such file or directory in /home/unidas/public_html/boleto_filiada/gerar/2/boleto_sicredi.php on line 101
+[17-Aug-2018 18:48:04 UTC] PHP Warning:  include_once(): Failed opening 'include/funcoes_itau.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/unidas/public_html/boleto_filiada/gerar/2/boleto_sicredi.php on line 101
+[17-Aug-2018 18:48:04 UTC] PHP Warning:  include(include/layout_itau.php): failed to open stream: No such file or directory in /home/unidas/public_html/boleto_filiada/gerar/2/boleto_sicredi.php on line 102
+[17-Aug-2018 18:48:04 UTC] PHP Warning:  include(): Failed opening 'include/layout_itau.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/unidas/public_html/boleto_filiada/gerar/2/boleto_sicredi.php on line 102
+[17-Aug-2018 19:52:45 UTC] PHP Warning:  mysqli::query(): Empty query in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 115
+[17-Aug-2018 20:25:59 UTC] PHP Parse error:  syntax error, unexpected 'm' (T_STRING) in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 114
+[17-Aug-2018 20:31:47 UTC] PHP Parse error:  syntax error, unexpected 'm' (T_STRING) in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 114
+[20-Aug-2018 12:47:35 UTC] PHP Parse error:  syntax error, unexpected '$nosso_Numero' (T_VARIABLE) in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 122
+[20-Aug-2018 12:58:39 UTC] PHP Warning:  str_pad() expects at most 4 parameters, 5 given in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 30
+[20-Aug-2018 12:58:49 UTC] PHP Warning:  str_pad() expects at most 4 parameters, 5 given in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 30
+[20-Aug-2018 13:00:15 UTC] PHP Parse error:  syntax error, unexpected '$vr' (T_VARIABLE) in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 32
+[20-Aug-2018 13:01:23 UTC] PHP Warning:  str_pad() expects parameter 4 to be integer, string given in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 30
+[20-Aug-2018 13:01:40 UTC] PHP Warning:  str_pad() expects parameter 4 to be integer, string given in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 30
+[20-Aug-2018 13:01:59 UTC] PHP Warning:  str_pad() expects parameter 4 to be integer, string given in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 30
+[20-Aug-2018 13:04:39 UTC] PHP Warning:  str_pad() expects at most 4 parameters, 5 given in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 30
+[20-Aug-2018 13:05:05 UTC] PHP Warning:  str_pad() expects at most 4 parameters, 5 given in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 30
+[20-Aug-2018 13:05:41 UTC] PHP Warning:  str_pad() expects at most 4 parameters, 5 given in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 30
+[20-Aug-2018 13:10:14 UTC] PHP Warning:  str_pad() expects at most 4 parameters, 5 given in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 30
+[20-Aug-2018 13:10:44 UTC] PHP Warning:  str_pad() expects at most 4 parameters, 5 given in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 30
+[20-Aug-2018 13:11:11 UTC] PHP Warning:  str_pad() expects at most 4 parameters, 5 given in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 30
+[20-Aug-2018 17:55:39 UTC] PHP Parse error:  syntax error, unexpected 'm' (T_STRING), expecting ',' or ')' in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 114
+[20-Aug-2018 17:56:06 UTC] PHP Warning:  fopen(boletos/08-2018/$id.pdf): failed to open stream: No such file or directory in /home/unidas/public_html/boleto_filiada/gerar/html2pdf/_tcpdf_5.0.002/tcpdf.php on line 6168
+[20-Aug-2018 17:56:41 UTC] PHP Warning:  fopen(boletos/08-2018/1.pdf): failed to open stream: No such file or directory in /home/unidas/public_html/boleto_filiada/gerar/html2pdf/_tcpdf_5.0.002/tcpdf.php on line 6168
+[20-Aug-2018 17:57:16 UTC] PHP Warning:  fopen(boletos/08-2018/1.pdf): failed to open stream: No such file or directory in /home/unidas/public_html/boleto_filiada/gerar/html2pdf/_tcpdf_5.0.002/tcpdf.php on line 6168
+[20-Aug-2018 18:08:19 UTC] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 113
+[20-Aug-2018 18:09:54 UTC] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 113
+[20-Aug-2018 18:36:33 UTC] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 113
+[16-Oct-2018 14:47:25 UTC] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 113
+[16-Oct-2018 14:50:35 UTC] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 113
+[16-Oct-2018 14:53:05 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1044): Access denied for user 'unidas_unidas'@'localhost' to database 'unidas_unidasor_intranet' in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 3
+[16-Oct-2018 14:53:05 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 6
+[16-Oct-2018 14:53:05 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 7
+[16-Oct-2018 14:53:05 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on null in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 8
+[16-Oct-2018 14:53:16 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 8
+[16-Oct-2018 14:54:16 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 8
+[16-Oct-2018 14:55:27 UTC] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 113
+[16-Oct-2018 15:00:47 UTC] PHP Parse error:  syntax error, unexpected '$para' (T_VARIABLE) in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 155
+[16-Oct-2018 15:00:56 UTC] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 113
+[16-Oct-2018 15:03:32 UTC] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 113
+[16-Oct-2018 15:11:39 UTC] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 113
+[16-Oct-2018 15:11:39 UTC] PHP Fatal error:  Class 'PHPMailer' not found in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 129
+[16-Oct-2018 15:11:42 UTC] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 113
+[16-Oct-2018 15:11:42 UTC] PHP Fatal error:  Class 'PHPMailer' not found in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 129
+[16-Oct-2018 15:12:54 UTC] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 113
+[16-Oct-2018 15:12:54 UTC] PHP Fatal error:  Class 'PHPMailer' not found in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 129
+[16-Oct-2018 15:13:06 UTC] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 113
+[16-Oct-2018 15:13:17 UTC] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 113
+[16-Oct-2018 15:13:17 UTC] PHP Fatal error:  Class 'PHPMailer' not found in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 129
+[16-Oct-2018 15:15:07 UTC] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 113
+[16-Oct-2018 15:15:07 UTC] PHP Fatal error:  Class 'PHPMailer' not found in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 129
+[16-Oct-2018 15:15:24 UTC] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 113
+[16-Oct-2018 15:15:24 UTC] PHP Fatal error:  Class 'PHPMailer' not found in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 129
+[16-Oct-2018 15:15:37 UTC] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 113
+[16-Oct-2018 15:15:37 UTC] PHP Fatal error:  Call to a member function AddAttachment() on null in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 136
+[16-Oct-2018 15:16:24 UTC] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 113
+[16-Oct-2018 15:16:24 UTC] PHP Fatal error:  Class 'PHPMailer' not found in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 129
+[16-Oct-2018 15:23:36 UTC] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 113
+[16-Oct-2018 15:24:01 UTC] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 113
+[16-Oct-2018 15:26:46 UTC] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 113
+[16-Oct-2018 15:27:03 UTC] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 113
+[16-Oct-2018 18:08:06 UTC] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 113
+[16-Oct-2018 18:13:43 UTC] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 113
+[16-Oct-2018 18:23:33 UTC] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 115
+[16-Oct-2018 19:02:23 UTC] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 114
+[16-Oct-2018 19:02:26 UTC] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 114
+[16-Oct-2018 19:06:57 UTC] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 114
+[16-Oct-2018 19:07:02 UTC] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 114
+[16-Oct-2018 19:09:23 UTC] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 114
+[16-Oct-2018 19:09:25 UTC] PHP Fatal error:  Cannot redeclare digitoVerificador_barra() (previously declared in /home/unidas/public_html/boleto_filiada/gerar/include/funcoes_itau.php:66) in /home/unidas/public_html/boleto_filiada/gerar/include/funcoes_itau.php on line 66
+[16-Oct-2018 19:09:52 UTC] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 114
+[16-Oct-2018 19:09:53 UTC] PHP Fatal error:  Cannot redeclare digitoVerificador_barra() (previously declared in /home/unidas/public_html/boleto_filiada/gerar/include/funcoes_itau.php:66) in /home/unidas/public_html/boleto_filiada/gerar/include/funcoes_itau.php on line 66
+[16-Oct-2018 20:02:35 UTC] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 114
+[16-Oct-2018 20:02:37 UTC] PHP Fatal error:  Cannot redeclare digitoVerificador_barra() (previously declared in /home/unidas/public_html/boleto_filiada/gerar/include/funcoes_itau.php:66) in /home/unidas/public_html/boleto_filiada/gerar/include/funcoes_itau.php on line 66
+[16-Oct-2018 20:03:23 UTC] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 114
+[16-Oct-2018 20:03:25 UTC] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 114
+[16-Oct-2018 20:03:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/unidas/public_html/boleto_filiada/gerar/html2pdf/_tcpdf_5.0.002/tcpdf.php:6158) in /home/unidas/public_html/boleto_filiada/gerar/html2pdf/_tcpdf_5.0.002/tcpdf.php on line 6141
+[16-Oct-2018 20:04:23 UTC] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 114
+[16-Oct-2018 20:04:26 UTC] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 114
+[16-Oct-2018 20:10:25 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 10
+[16-Oct-2018 20:10:54 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 10
+[16-Oct-2018 20:13:24 UTC] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 114
+[16-Oct-2018 20:13:26 UTC] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 114
+[17-Oct-2018 15:21:01 UTC] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 114
+[17-Oct-2018 15:21:04 UTC] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 114
+[10-Dec-2018 14:11:41 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 114
+[10-Dec-2018 14:16:00 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 114
+[10-Dec-2018 14:17:38 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 114
+[10-Dec-2018 14:22:09 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 114
+[10-Dec-2018 14:22:59 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 114
+[10-Dec-2018 14:24:03 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 114
+[10-Dec-2018 14:27:21 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 114
+[10-Dec-2018 14:30:15 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 114
+[10-Dec-2018 14:31:07 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 114
+[10-Dec-2018 14:33:35 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 114
+[10-Dec-2018 14:34:40 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 114
+[10-Dec-2018 14:37:44 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_sicredi.php on line 114
+[17-Dec-2018 10:25:38 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[17-Dec-2018 10:27:10 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[17-Dec-2018 10:27:25 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[17-Dec-2018 10:41:15 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[17-Dec-2018 11:15:50 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[17-Dec-2018 11:19:18 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[17-Dec-2018 11:21:08 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[17-Dec-2018 11:23:32 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[17-Dec-2018 11:54:30 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[17-Dec-2018 11:55:26 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[17-Dec-2018 11:57:46 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[17-Dec-2018 11:58:17 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[17-Dec-2018 12:03:17 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[17-Dec-2018 12:03:17 America/New_York] PHP Fatal error:  Call to undefined method PHPMailer::MsgHTMLmb_convert_encoding() in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 165
+[17-Dec-2018 12:03:41 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[17-Dec-2018 12:04:50 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[17-Dec-2018 12:06:47 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[17-Dec-2018 12:06:47 America/New_York] PHP Fatal error:  Call to a member function mb_convert_encoding() on null in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 164
+[17-Dec-2018 12:06:57 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[17-Dec-2018 12:19:45 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[17-Dec-2018 12:21:10 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[17-Dec-2018 12:21:21 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[17-Dec-2018 12:21:50 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[17-Dec-2018 12:21:50 America/New_York] PHP Fatal error:  Call to undefined method PHPMailer::Body() in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 164
+[17-Dec-2018 12:23:11 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[17-Dec-2018 12:23:11 America/New_York] PHP Fatal error:  Call to undefined method PHPMailer::Body() in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 164
+[17-Dec-2018 12:23:31 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[17-Dec-2018 12:24:19 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[17-Dec-2018 12:25:00 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[17-Dec-2018 12:25:27 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[17-Dec-2018 12:27:55 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[17-Dec-2018 12:34:58 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[18-Dec-2018 07:29:23 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[18-Dec-2018 07:31:41 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[20-Dec-2018 08:24:27 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[20-Dec-2018 08:50:34 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[20-Dec-2018 12:14:07 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[20-Dec-2018 12:15:19 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[20-Dec-2018 12:35:29 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[20-Dec-2018 12:36:15 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[20-Dec-2018 12:41:40 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[20-Dec-2018 12:50:09 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[21-Dec-2018 08:33:45 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[21-Dec-2018 08:51:34 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[21-Dec-2018 08:51:35 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[21-Dec-2018 08:53:26 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[21-Dec-2018 08:53:27 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[21-Dec-2018 08:53:27 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/unidas/public_html/boleto_filiada/gerar/html2pdf/_tcpdf_5.0.002/tcpdf.php:6158) in /home/unidas/public_html/boleto_filiada/gerar/html2pdf/_tcpdf_5.0.002/tcpdf.php on line 6141
+[21-Dec-2018 09:04:22 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[21-Dec-2018 09:04:22 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/unidas/public_html/boleto_filiada/gerar/html2pdf/_tcpdf_5.0.002/tcpdf.php:6133) in /home/unidas/public_html/boleto_filiada/gerar/html2pdf/_tcpdf_5.0.002/tcpdf.php on line 6122
+[21-Dec-2018 09:24:14 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[21-Dec-2018 09:24:15 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[21-Dec-2018 09:25:21 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
+[21-Dec-2018 09:25:21 America/New_York] PHP Warning:  mkdir(): File exists in /home/unidas/public_html/boleto_filiada/gerar/boleto_unidas.php on line 114
