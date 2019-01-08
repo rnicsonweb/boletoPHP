@@ -1,5 +1,5 @@
 <?php
-    $mysqli = new mysqli("localhost", "unidas_unidas", "unidas2018", "unidas_intranet");
+    $mysqli = new mysqli("localhost", "", "", "");
     $query = "SELECT * FROM gerar_boleto";
     $query2 = "SELECT * FROM boletos_gerados ORDER BY id DESC";
     $result = $mysqli->query($query);
@@ -53,12 +53,12 @@ $dadosboleto["endereco1"] = $endereco. '-' .$bairro;
 $dadosboleto["endereco2"] = $cidade. '-'. $estado. '-  CEP:'. $cep;
 
 // INFORMACOES PARA O CLIENTE
-$dadosboleto["demonstrativo1"] = "Filiação - Unidas";
+$dadosboleto["demonstrativo1"] = "Filiação";
 $dadosboleto["demonstrativo2"] = "Contribuição REF. AGOSTO/2018";
-$dadosboleto["demonstrativo3"] = "Unidas - https://www.unidas.org.br";
+$dadosboleto["demonstrativo3"] = "EMPRESA - site";
 $dadosboleto["instrucoes1"] = "- Sr. Caixa, não receber após o vencimento";
 $dadosboleto["instrucoes2"] = "";
-$dadosboleto["instrucoes3"] = "- Em caso de dúvidas entre em contato conosco: ricardo@unidas.org.br";
+$dadosboleto["instrucoes3"] = "- Em caso de dúvidas entre em contato conosco: ";
 $dadosboleto["instrucoes4"] = "&nbsp; Emitido por Unidas Nacional";
 
 // DADOS OPCIONAIS DE ACORDO COM O BANCO OU CLIENTE
@@ -73,19 +73,19 @@ $dadosboleto["especie_doc"] = "R$";
 
 
 // DADOS DA SUA CONTA - SICREDI
-$dadosboleto["agencia"] = "8351"; // Num da agencia, sem digito
-$dadosboleto["conta"] = "19031";	// Num da conta, sem digito
-$dadosboleto["conta_dv"] = "2"; 	// Digito do Num da conta
+$dadosboleto["agencia"] = "0000"; // Num da agencia, sem digito
+$dadosboleto["conta"] = "00000";	// Num da conta, sem digito
+$dadosboleto["conta_dv"] = "0"; 	// Digito do Num da conta
 
 // DADOS PERSONALIZADOS - SICREDI
 $dadosboleto["carteira"] = "109";
 
 // SEUS DADOS
-$dadosboleto["identificacao"] = "Unidas - União Nacional das Instituições de Auto Gestão em Saúde";
+$dadosboleto["identificacao"] = "Empresa";
 $dadosboleto["cpf_cnpj"] = "69275337000108";
-$dadosboleto["endereco"] = "Alameda Santos, 1000 - 8ªAndar, Cerqueira César";
-$dadosboleto["cidade_uf"] = "São Paulo / SP";
-$dadosboleto["cedente"] = "União Nacional das Instituições de Autogestão em Saúde";
+$dadosboleto["endereco"] = "Endereço";
+$dadosboleto["cidade_uf"] = "Estado";
+$dadosboleto["cedente"] = "Empresa";
 
 ob_start();
 
@@ -136,11 +136,11 @@ $mail = new PHPMailer(true);
 $mail->IsSMTP(); // Define que a mensagem será SMTP
  
 try {
-     $mail->Host = 'mail.unidas.org.br'; // Endereço do servidor SMTP (Autenticação, utilize o host smtp.seudomínio.com.br)
+     $mail->Host = 'dominio'; // Endereço do servidor SMTP (Autenticação, utilize o host smtp.seudomínio.com.br)
      $mail->SMTPAuth   = true;  // Usar autenticação SMTP (obrigatório para smtp.seudomínio.com.br)
      $mail->Port       = 587; //  Usar 587 porta SMTP
-     $mail->Username = 'richard@unidas.org.br'; // Usuário do servidor SMTP (endereço de email)
-     $mail->Password = '@Michele2018'; // Senha do servidor SMTP (senha do email usado)
+     $mail->Username = 'email@email'; // Usuário do servidor SMTP (endereço de email)
+     $mail->Password = 'senha'; // Senha do servidor SMTP (senha do email usado)
  
      //Define o remetente
      // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=    
@@ -163,9 +163,9 @@ try {
  
      //Define o corpo do email
      $mail->MsgHTML("<p>Bom dia</p> 
-<p>Prezada Filiada,</p>   
+<p>Prezada ,</p>   
 <p></p>  
-<p>Segue em anexo boleto referente a contribuição UNIDAS 12/2018,</p>
+<p>Segue em anexo boleto referente a contribuição,</p>
 <p></p> 
 <p></p>  
 <p></p>  
@@ -180,7 +180,7 @@ try {
 		<tr>
 			<td style='width:205px;height:86px;'>
 				<p>
-					<img alt='dezembro laranja' height='68' src='https://www.unidas.org.br/boleto_filiada/gerar/imagens/unidas-mail.jpg' width='217' /></p>
+					<img alt='dezembro laranja' height='68' src='https://www.site.org.br/boleto_filiada/gerar/imagens/unidas-mail.jpg' width='217' /></p>
 			</td>
 			<td style='width:142px;height:86px;'>
 				<p>
@@ -190,7 +190,7 @@ try {
 				<p>
 					<strong>11 3289.0855</strong></p>
 				<p>
-					<img alt='cid:image006.png@01D3889A.76D8FEF0' height='14' src='https://www.unidas.org.br/boleto_filiada/gerar/imagens/skype-mail.png' width='14' />live:ricardo_10835<u><a href='mailto:ricardo@unidas.org.br'>ricardo@unidas.org.br</a></u></p>
+					<img alt='cid:image006.png@01D3889A.76D8FEF0' height='14' src='https://www.site.org.br/boleto_filiada/gerar/imagens/skype-mail.png' width='14' />live:ricardo_10835<u><a href='mailto:ricardo@unidas.org.br'>ricardo@unidas.org.br</a></u></p>
 				<p>
 					<a href='http://www.unidas.org.br/'>www.unidas.org.br</a></p>
 			</td>
